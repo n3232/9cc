@@ -4,11 +4,16 @@
 https://www.sigbus.info/compilerbook
 
 ## 実行方法
-docker-compose.yaml up -d
+```zsh
+docker-compose up -d
+```
 
 別ターミナルで
+```zsh
 docker-compose exec app bash
+```
 
 test
+```zsh
 ./test.sh
-
+```
